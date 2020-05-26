@@ -1,0 +1,27 @@
+/*link.css*/
+
+h1{
+    border-bottom: solid 2px;
+    border-bottom-color: darkgoldenrod ;
+    font-style: oblique;
+    text-shadow: 5px 5px 5px #dddddd;
+}
+h3{
+    font-size: 30px;
+    display:block;
+    width:100; 
+    border:5px solid skyblue;
+    padding:20px;
+    margin:5px;    
+}
+
+body.BG1 {
+    background-color:floralwhite;
+    text-align: center;
+}
+ol.BG2 {
+    font-size:20px;
+    background-color:bisque; 
+    text-align:left;
+    border:5px solid skyblue;
+}
