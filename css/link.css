@@ -1,0 +1,80 @@
+/*index-link.css*/
+
+/*----header----*/
+header{
+    height: 150px;
+    background-color: rgba(106, 106, 106, 0.65)
+}
+header #menu {
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(132, 129, 102);
+    
+}
+header #menu ul{
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+header #menu li {
+    margin: 50px;
+    display: inline;
+}
+/*----section----*/
+section #main{
+    width: 990px;
+    margin: auto;  
+}
+section h1{
+    margin-top:50px;
+}
+section #cat {
+    position: fixed;
+    width:250px;
+    height:auto;
+    float: left;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+section #cat #cat_title{
+    padding: 5px;
+    background-color:#36ff93;
+    color: #ffffff;
+    text-align: center;
+}
+section #cat li{
+    color: #dff0ff;
+    padding: 5px 0px 5px 0px;
+    border-bottom: solid 1px #cccccc;
+}
+#wrapper {
+    margin: 50px;
+    text-align:center;
+}
+div section img {
+    margin : 50px;
+    width:600px;
+    height:450px;
+}
+body {
+    background: url(../img/bg.jpg);
+    background-size : cover;
+}
+h1{
+    color: aliceblue;
+    text-align:center;
+    font-size:50px;
+    margin:auto;
+}
+h2{
+    color: #3df8ff;
+    text-align: center;
+    margin:auto;
+}
+a {
+    text-decoration: none;
+    color :azure;
+}
+a:hover{color:aqua;}
